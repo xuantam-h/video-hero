@@ -16,17 +16,7 @@ main{
     align-items: center;
     position: relative;
     overflow: hidden;
-}
-
-main::before{
-    content:'';
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    background-color: rgba(0,0,0,0.3);
-    z-index: 0;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .hero-content{
@@ -36,13 +26,11 @@ main::before{
 }
 
 .hero-title{
-    font-family: 'Playfair Display', serif;
-    font-size:2rem;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size:5rem;
     color: #fff;
     font-weight: 400;
-}
-.hero-title span{
-    font-weight: 900;
+    margin:1rem 0;
 }
 
 .video-bg{
@@ -71,6 +59,6 @@ main::before{
 
 @media (min-width:768px){
     .hero-title{
-        font-size: 3.5rem;
+        font-size: 7rem;
     }
 }
