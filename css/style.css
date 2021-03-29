@@ -27,10 +27,10 @@ main{
 
 .hero-title{
     font-family: 'Kosugi Maru', sans-serif;
-    font-size:5rem;
+    font-size:3rem;
     color: #fff;
     font-weight: 400;
-    margin:1rem 0;
+    margin:1.5rem 0;
 }
 
 .video-bg{
